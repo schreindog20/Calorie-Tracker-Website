@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2016, 11:25:28 AM
+    Author     : Kathy
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1 {
+    color: teal;
+}
+
+label {
+    
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+br{
+    clear: both;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: left;
+    padding: .5em;
+}
+
+th {
+    font-size: 120%;
+}
+
+#submit {
+     margin-left: 0.5em;
+}
+ 
+.head {
+     float: right;
+}
+
+.right {
+    text-align: right;
+}
+
+.red {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    color: aqua;
+}
+
+.content {
+    padding-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
